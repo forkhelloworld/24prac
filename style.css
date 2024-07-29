@@ -53,10 +53,17 @@ body {
   font-size: 0.9em;
   color: #6c757d;
   margin: 20px 0;
-  height: 3em;
+  height: 1em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.card .rating * {
+  display: inline;
+  font-size: 1em;
+  color: #ffc107;
+  margin: 10px 0;
 }
 
 .card:hover {
